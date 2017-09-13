@@ -1,0 +1,16 @@
+{
+  "name": "EJB Plugin",
+  "id": "ejb",
+  "properties": [
+    {
+      "name": "traceEjbInitMethods",
+      "type": "boolean",
+      "label": "Trace EJB <init> methods",
+      "checkboxLabel": "Trace EJB <init> methods",
+      "description": "Enable to trace the creation of the EJB objects"
+    }
+  ],
+  "aspects": [
+    "org.glowroot.agent.plugin.ejb.EjbAspect"
+  ]
+}

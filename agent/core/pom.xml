@@ -698,7 +698,7 @@
         </os>
       </activation>
       <properties>
-        <rt.jar.path>${java.home}/../Classes/classes.jar</rt.jar.path>
+        <rt.jar.path>${java.home}/lib/rt.jar</rt.jar.path>
       </properties>
     </profile>
   </profiles>
